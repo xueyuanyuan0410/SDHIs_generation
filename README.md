@@ -3,7 +3,7 @@
 This repository contains the source code for how molecules can be generated with the graph-based transformer architecture(molegent).
 
 <div align=center>
-<img src="./fugure/流程图3_400dpi.tif" align=center >
+<img src="./fugure/流程图3_400dpi.png" align=center >
 </div>
 
 The SMILES format data of 23 succinate dehydrogenase inhibitors provided by the 2020 version of the Fungicide Resistance Committee is in the data folder.
