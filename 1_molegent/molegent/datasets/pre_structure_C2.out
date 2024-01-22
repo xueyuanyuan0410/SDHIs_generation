@@ -1,0 +1,64 @@
+(molegent) zy@amax:~/fungicide_generation/molegent_C2/molegent_C2/molegent/molegent/datasets$ python pre_structure.py --dataset /home/zy/fungicide_generation/molegent_C2/molegent_C2/molegent/data/C2.csv
+smiles length 24
+# rules 230
+pre_structure.py:74: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  rule_indicator = np.zeros([len(smiles_list), len(rules)], dtype=np.int)
+0
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[10:54:04] mapped atoms in the reactants were not mapped in the products.
+  unmapped numbers are: 2 
+[[ 0  0  0 ... 10 10 10]
+ [ 0  0  0 ... 13 13 13]
+ [ 0  0  0 ... 10 10 10]
+ ...
+ [ 0  0  0 ... 10 10 10]
+ [ 0  0  0 ... 13 13 13]
+ [ 0  0  0 ... 11 11 11]]
+[141 150 145 145 171 168 188 171 167 158 137 171 152 149 134 134 148 189
+  98 146 134 110 132 171]

@@ -1,0 +1,37 @@
+num_epochs: 100 #100
+early_stopping: false
+
+atom_embedding_dim: 512
+bond_embedding_dim: 512
+max_num_atoms: 50 
+
+batch_size: 128
+num_data_load_worker: 7
+shuffle_samples: true
+
+sample: 1
+# [no, random, random_df_sort]
+atom_shuffle_strategy: random_df_sort
+num_samples: 100000
+
+inference_output_dir: results/inference_output
+
+lr: 0.0001
+lr_scheduler: true
+
+
+max_size_trainset:
+max_size_testset: 10000
+max_grad_norm: 10.
+
+log_to_tensorboard: true
+running_mean_interval: 200
+
+num_enc_layer: 8
+num_heads: 16
+dropout: 0.2
+
+atom_decoder: [800, 600, 400, 200]
+edge_decoder: [800, 800, 1000, 2000]
+
+encoder_type: transformer
